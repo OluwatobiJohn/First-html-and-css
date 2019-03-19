@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;	
+}
+a:link {
+	margin-left: 30px;
+	padding: 10px;
+}
+
+body {
+	background: url("roll.gif") no-repeat fixed;
+	background-size: cover;
+	font-family: 'arial', serif, sans-serif;
+	font-size: vw;
+	
+}
+.square {
+	border-left: solid;
+	border-left-color: tomato;
+	border-radius: 10px;
+	border-left-width: 0px;
+}
+.foot {
+	margin-left: 5px;
+	border-left: 5px solid tomato;
+	padding: 8px;
+}
+.square {
+	background: linear-gradient(to right, gray, tomato);
+}
+.round {
+	padding: 10px;
+}
+button {
+	padding-right:10px;
+	margin: 0 30px 10px 0;
+	color: tomato;
+	border-radius: 5px;
+}
+h1 {
+	font-size: 35px;
+}
+.bat {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 450px
+}
+.got {
+	display: flex;
+	flex-direction: row;
+}
+.top {
+	border-radius: 10px;
+	margin: 20px;
+}
+ul.kite li {
+	list-style: none;
+	float: left;
+}
+ul.kite li.kite-right {
+	float: right;
+}
+ul.kite li a {
+	display: block;
+	text-decoration: none;
+	min-height: 16px;
+	text-align: center;
+	padding: 14px;
+	text-transform: uppercase;
+	color: #664;
+	margin-left: 0;
+}
+ul.kite li a:hover {
+	background-color: tomato;
+	color:#fff;
+}
+ul.kite li.dropdown {
+	display: none;
+}
+/*######### mobile #######*/
+@media screen and (max-width: 680px) {
+	ul.kite li:not(:nth-child(1)) {
+		display: none; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
